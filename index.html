@@ -4,39 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avocado Workroom</title>
-    <img src="assets/header avocado.png" alt="100">
+    
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     
-    <header>
-        <nav> 
-            <ul>
-                <div>Inicio</div>
-                <div>Blog</div>
-                <div>Tienda</div>
-                <div>Galería</div>
-                <div>Contáctanos</div>
+    <header class="header">
+        <nav class="header__nav"> 
+            <img src="assets/header avocado.png" alt="100">
+            <ul class="header__nav__list">
+                <li>Inicio<li>
+                <li>Blog</li>
+                <li>Tienda</li>
+                <li>Galería</li>
+                <li>Contáctanos</li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="jumbotron">
+            <img src="assets/header xmas.png">
             <h1>Conéctate con el medio</h1>
             <p>Conoce a nuestros alumnos más destacados!</p> 
-            <h3>Conoce a más talentos, inicia tus propios proyectos o forma parte de uno. Registrate en nuestro portal web y conviérte en un miembro activo de nuestro gremio de realizadores.</h3>
+            <h2>Conoce a más talentos, inicia tus propios proyectos o forma parte de uno. Registrate en nuestro portal web y conviérte en un miembro activo de nuestro gremio de realizadores.</h2>
             <button>Trabajémos Juntos!</button>
         </section>
-        <img src="assets/header xmas.png" alt="">
-        <section>
+       
+       
+        <section class="section--aboutus">
+            <div class="section--aboutus_container"
             <h1>Sobre Nosotros</h1>
             <p>AvoGato Workroom es una comunidad artística. Ubicado en Valencia, Venezuela, aspiramos a ser un lugar de reunión para jovenes talentosos y emprendedores del arte dígital.
     
                 AvoGato aspira a ser un punto de encuentro para jóvenes con un emprendimiento creativo y una pasión similar por las artes</p>
                 <button>Ver más...</button>
                 <img src="assets/sobre nosotros.png" alt="200">
-        </section>
-        <section>
+        </section class>
+        <section class="sellingpoint">
             <h1>Artículos en Venta</h1>
             <p>Apóyanos siendo parte de nuestro grupo de compradores, y como muestra de agradecimiento te otorgamos el título de “colaborador supremo” con derechos de propiedad a nuestra unica e incomparable mercadotecnia.
                 (son solo camisas y tazas- no es mucho, pero es un trato honesto)</p>
@@ -44,8 +48,8 @@
         
                 <img src="assets/mugshot.png" alt="100">
                 <button>Shut up and take my money</button>
-        </section>
-        <section>
+        </section class>
+        <section class="facethemusic">
             <header>Avogato Mixplay V.01</header>
             <p class="parrafo AvoGato Mixplay">Saluden a AvoGato Mixplay, un reproductor de música recien salido del horno de AvoGato Workroom. 
                 Con Avogato Mixplay podrás escuchar canciones en streaming, sin costo y sin anuncios.
@@ -56,9 +60,9 @@
         </section>
         
         <section>
-            <img src="assets/contact us.png" alt="50" height="20%">
+            <img src="assets/contact us.png" alt="80" height="80">
         <h1>Ya sabes dónde encontrarnos!</h1>
-            <h1>Sube tu CV.</h1>
+            <h2>Sube tu CV.</h2>
             <button>Escoger Archivo</button>
         
             <button>Enviar Mensaje</button>
@@ -67,7 +71,7 @@
     </main>
     <hr>
     
-<section>
+<section class="insertinfohere">
     <form>
         <label for="nombre">Nombre</label>
             <input type="text" id="nombre" name="name" placeholder="nombre">
@@ -92,6 +96,7 @@
             </ul>
         </nav>
     </footer>
+    <form>
 </section>
 </body>
 <html>
