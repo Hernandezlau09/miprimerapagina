@@ -250,7 +250,7 @@ button:hover {
 }
 
 footer {
-    display: flex;
+    display: grid;
     padding: 5px 0;
     background-color: rgb(91, 67, 38);
  }
@@ -335,14 +335,11 @@ span {
 }
 
 .store-repertoire {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax (324px,324px));
-    justify-content: space-between;
-    flex-direction: row;
+    display: flex;
+    padding: 10%;
+    gap: 50px;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 16pt;
-    justify-items: center;
-    justify-content: center;
 }
 
 .artgallery {
