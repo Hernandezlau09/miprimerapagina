@@ -13,17 +13,17 @@
         <nav class="header__nav"> 
             <img src="/assets/Avocado Workroom logo.png" alt="100">
             <ul class="header__nav__list">
-                <li>Inicio<li>
-                <li>Sobre Nosotros</li>
-                <li>Tienda</li>
-                <li>Galería</li>
-                <li>Contáctanos</li>
+                <li><a href="index.html">Inicio</a><li>
+                <li><a href="webpage/sobre_nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="webpage/tienda.html">Tienda</a></li>
+                <li><a href="#galería">Galería</a></li>
+                <li><a href="#">Contáctanos</a></li>
             </ul>
         </nav>
+
     </header>
     <main>
         <section class="jumbotron" style="color: antiquewhite;">
-            <img src="assets/header xmas.png">
             <h1>Conéctate con el medio</h1>
             <p>Conoce a nuestros alumnos más destacados!</p> 
             <h2>Conoce a más talentos, inicia tus propios proyectos o forma parte de uno. Registrate en nuestro portal web y conviérte en un miembro activo de nuestro gremio de realizadores.</h2>
@@ -33,25 +33,25 @@
        
         <section class="section--aboutus">
             <div class="section--aboutus_container" 
-            <h1>Sobre Nosotros </h1>
+            <h1>Sobre Nosotros</h1>
             <p>AvoGato Workroom es una comunidad artística. Ubicado en Valencia, Venezuela, aspiramos a ser un lugar de reunión para jovenes talentosos y emprendedores del arte dígital.
     
                 AvoGato aspira a ser un punto de encuentro para jóvenes con un emprendimiento creativo y una pasión similar por las artes</p>
                 <button>Ver más...</button>
-                <img src="assets/sobre nosotros.png" alt="200">
             </div class>
         </section class>
-        <section class="sellingpoint">
-            <h1>Artículos en Venta</h1>
-            <p>Apóyanos siendo parte de nuestro grupo de compradores, y como muestra de agradecimiento te otorgamos el título de “colaborador supremo” con derechos de propiedad a nuestra unica e incomparable mercadotecnia.
-                (son solo camisas y tazas- no es mucho, pero es un trato honesto)</p>
-                <img src="assets/shirt avocado.png" alt="100">
-        
-                <img src="assets/mugshot.png" alt="100">
-                <button>Shut up and take my money</button>
+            <section class="sellingpoint">
+                <h1>Artículos en Venta</h1>
+                <p>Apóyanos siendo parte de nuestro grupo de compradores, y como muestra de agradecimiento te otorgamos el título de “colaborador supremo” con derechos de propiedad a nuestra unica e incomparable mercadotecnia.
+                    (son solo camisas y tazas- no es mucho, pero es un trato honesto)</p>
+                <section class="sell_images">
+                    <img src="assets/shirt avocado.png"  alt="100">
+                    <img src="assets/mugshot.png" alt="100">
+                </section class>
+                <button>Llevame a la tienda</button>
         </section class>
         <section class="facethemusic">
-            <header>Avogato Mixplay V.01</header>
+            <h1>Avogato Mixplay V.01</h1>
             <p>Saluden a AvoGato Mixplay, un reproductor de música recien salido del horno de AvoGato Workroom. 
                 Con Avogato Mixplay podrás escuchar canciones en streaming, sin costo y sin anuncios.
                 Pruébala, es gratis. 
@@ -75,9 +75,14 @@
             <br>
             <input type="submit">
     </form class>
+    <picture>
             <img src="assets/contact us.png" alt="120" height="120">
-    <h1>Ya sabes dónde encontrarnos!</h1>
-    <h2>Sube tu CV.</h2>
+        <tool-tip role="tooltip">
+    Ya sabes dónde encontrarnos!<b>
+    </tool-tip>
+    </picture>
+    
+    <h1>Sube tu CV.</h1>
     <button>Escoger Archivo</button>
     
     <button>Enviar Mensaje</button>
@@ -85,7 +90,7 @@
 </section class>
 
 <section>
-    <footer class="footer">
+    <footer>
         <nav> 
             <ul>
                 <img src="assets/avogato icon.png" alt="75" height="75">
