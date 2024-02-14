@@ -364,3 +364,11 @@ span {
     opacity: 1;
     filter:contrast(120%);
 }
+
+.gallery-downloadable {
+    display: flex;
+    padding: 10%;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
